@@ -1,0 +1,11 @@
+# سیستم‌عامل
+.DS_Store
+Thumbs.db
+
+# ادیتورها
+.vscode/
+.idea/
+
+# فایل‌های موقت
+*.log
+*.tmp

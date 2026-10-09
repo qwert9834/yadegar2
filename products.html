@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="لیست محصولات فروشگاه یادگار - تلویزیون، یخچال، ماکروویو با بهترین قیمت">
+    <title>محصولات | لوازم خانگی یادگار</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="header-inner">
+        <a href="index.html" class="logo">لوازم خانگی <span>یادگار</span></a>
+        <nav class="nav">
+            <a href="index.html">صفحه اصلی</a>
+            <a href="products.html" class="active">محصولات</a>
+            <a href="order.html">سفارش</a>
+        </nav>
+        <a href="order.html" class="cart-link" title="سبد خرید">
+            🛒 <span class="cart-count">۰</span>
+        </a>
+    </div>
+</header>
+
+<!-- ==================== بنر بالای صفحه ==================== -->
+<section class="page-title">
+    <div class="page-title-inner">
+        <h1>✨ محصولات فروشگاه یادگار</h1>
+        <p>بهترین لوازم خانگی با کیفیت جهانی، قیمت مناسب و ارسال سریع</p>
+        <div class="breadcrumb">
+            <a href="index.html">صفحه اصلی</a>
+            <span>›</span>
+            <strong>محصولات</strong>
+        </div>
+    </div>
+</section>
+
+<!-- ==================== نوار جستجو و فیلتر ==================== -->
+<section class="filter-bar">
+    <div class="filter-inner">
+        <div class="search-box">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="searchInput" placeholder="جستجو در محصولات...">
+        </div>
+        <div class="category-tabs">
+            <button class="tab active" data-cat="all">همه محصولات</button>
+            <button class="tab" data-cat="tv">📺 تلویزیون</button>
+            <button class="tab" data-cat="fridge">🧊 یخچال</button>
+            <button class="tab" data-cat="microwave">🔥 ماکروویو</button>
+        </div>
+    </div>
+</section>
+
+<!-- ==================== شبکه محصولات ==================== -->
+<section class="section">
+    <div class="products-grid" id="productsGrid">
+
+        <!-- ============ محصول ۱: تلویزیون ============ -->
+        <article class="product-card" data-cat="tv" data-name="تلویزیون هوشمند">
+            <div class="product-img">
+                <span class="badge badge-new">جدید</span>
+                <span class="badge badge-discount">۱۵٪ تخفیف</span>
+                <button class="wishlist-btn" title="افزودن به علاقه‌مندی">🤍</button>
+                <img src="https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=800&q=80" alt="تلویزیون هوشمند">
+                <div class="img-overlay">
+                    <button class="quick-view">👁️ نمای سریع</button>
+                </div>
+            </div>
+            <div class="product-body">
+                <div class="product-category">📺 تلویزیون</div>
+                <h3>تلویزیون هوشمند ۵۵ اینچ</h3>
+                <div class="rating">
+                    <span class="stars">★★★★★</span>
+                    <span class="rating-count">(۲۴۸ نظر)</span>
+                </div>
+                <p class="product-desc">
+                    تلویزیون LED با کیفیت 4K، سیستم اندروید، وای‌فای و بلوتوث، ۲ پورت USB و ۳ پورت HDMI.
+                </p>
+                <div class="features-mini">
+                    <span>🎯 کیفیت 4K</span>
+                    <span>📱 اندروید</span>
+                    <span>🔊 صدای فراگیر</span>
+                </div>
+                <div class="price-box">
+                    <div class="old-price">۱٬۱۷۵ تومان</div>
+                    <div class="price">۱٬۰۰۰ تومان</div>
+                </div>
+                <button class="btn btn-primary add-to-cart"
+                        data-id="tv" data-name="تلویزیون هوشمند" data-price="1000">
+                    🛒 افزودن به سبد خرید
+                </button>
+            </div>
+        </article>
+
+        <!-- ============ محصول ۲: یخچال ============ -->
+        <article class="product-card" data-cat="fridge" data-name="یخچال فریزر">
+            <div class="product-img">
+                <span class="badge badge-hot">🔥 پرفروش</span>
+                <button class="wishlist-btn" title="افزودن به علاقه‌مندی">🤍</button>
+                <img src="https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?w=800&q=80" alt="یخچال فریزر">
+                <div class="img-overlay">
+                    <button class="quick-view">👁️ نمای سریع</button>
+                </div>
+            </div>
+            <div class="product-body">
+                <div class="product-category">🧊 یخچال</div>
+                <h3>یخچال فریزر ۳۲ فوت</h3>
+                <div class="rating">
+                    <span class="stars">★★★★★</span>
+                    <span class="rating-count">(۵۱۲ نظر)</span>
+                </div>
+                <p class="product-desc">
+                    سیستم No Frost، موتور کم‌مصرف، طبقات ضد باکتری، محفظه میوه و سبزیجات، گارانتی ۵ ساله.
+                </p>
+                <div class="features-mini">
+                    <span>❄️ No Frost</span>
+                    <span>⚡ کم‌مصرف</span>
+                    <span>🛡️ گارانتی ۵ ساله</span>
+                </div>
+                <div class="price-box">
+                    <div class="old-price">۱٬۷۵۰ تومان</div>
+                    <div class="price">۱٬۵۰۰ تومان</div>
+                </div>
+                <button class="btn btn-primary add-to-cart"
+                        data-id="fridge" data-name="یخچال فریزر" data-price="1500">
+                    🛒 افزودن به سبد خرید
+                </button>
+            </div>
+        </article>
+
+        <!-- ============ محصول ۳: ماکروویو ============ -->
+        <article class="product-card" data-cat="microwave" data-name="ماکروویو">
+            <div class="product-img">
+                <span class="badge badge-best">🏆 پیشنهاد ویژه</span>
+                <button class="wishlist-btn" title="افزودن به علاقه‌مندی">🤍</button>
+                <img src="https://images.unsplash.com/photo-1585659722983-3a675dabf23d?w=800&q=80" alt="ماکروویو">
+                <div class="img-overlay">
+                    <button class="quick-view">👁️ نمای سریع</button>
+                </div>
+            </div>
+            <div class="product-body">
+                <div class="product-category">🔥 ماکروویو</div>
+                <h3>ماکروویو ۲۵ لیتری</h3>
+                <div class="rating">
+                    <span class="stars">★★★★☆</span>
+                    <span class="rating-count">(۱۸۹ نظر)</span>
+                </div>
+                <p class="product-desc">
+                    عملکرد گریل، ۱۰ برنامه پخت خودکار، نمایشگر دیجیتال، یخ‌زدایی سریع، بدنه استیل.
+                </p>
+                <div class="features-mini">
+                    <span>🔥 گریل</span>
+                    <span>🎛️ دیجیتال</span>
+                    <span>🍽️ ۱۰ برنامه</span>
+                </div>
+                <div class="price-box">
+                    <div class="old-price">۶۰۰ تومان</div>
+                    <div class="price">۵۰۰ تومان</div>
+                </div>
+                <button class="btn btn-primary add-to-cart"
+                        data-id="microwave" data-name="ماکروویو" data-price="500">
+                    🛒 افزودن به سبد خرید
+                </button>
+            </div>
+        </article>
+
+    </div>
+
+    <!-- پیام خالی بودن نتایج جستجو -->
+    <p id="noResults" class="no-results" style="display:none;">
+        🔍 محصولی با این مشخصات پیدا نشد.
+    </p>
+</section>
+
+<!-- ==================== بخش مزایا ==================== -->
+<section class="benefits">
+    <div class="benefit">
+        <div class="benefit-icon">🚚</div>
+        <h4>ارسال سریع</h4>
+        <p>تحویل ۲۴ ساعته در تهران</p>
+    </div>
+    <div class="benefit">
+        <div class="benefit-icon">🛡️</div>
+        <h4>ضمانت اصالت</h4>
+        <p>گارانتی معتبر شرکتی</p>
+    </div>
+    <div class="benefit">
+        <div class="benefit-icon">💳</div>
+        <h4>پرداخت آسان</h4>
+        <p>در محل یا کارت به کارت</p>
+    </div>
+    <div class="benefit">
+        <div class="benefit-icon">↩️</div>
+        <h4>بازگشت کالا</h4>
+        <p>تا ۷ روز بدون شرط</p>
+    </div>
+</section>
+
+<footer class="site-footer">
+    <p>© ۱۴۰۴ - تمامی حقوق برای فروشگاه لوازم خانگی <strong>یادگار</strong> محفوظ است.</p>
+</footer>
+
+<script src="js/script.js"></script>
+<script src="js/products.js"></script>
+</body>
+</html>
